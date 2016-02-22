@@ -5,7 +5,7 @@ TARGET_NO_RADIOIMAGE := true
 
 # Platform
 TARGET_BOARD_PLATFORM := msm8974
-TARGET_BOARD_PLATFORM_GPU := qcom-adreno420
+TARGET_BOARD_PLATFORM_GPU := qcom-adreno330
 
 #Architecture
 TARGET_CPU_ABI := armeabi-v7a
@@ -25,8 +25,8 @@ BOARD_MKBOOTIMG_ARGS := --kernel_offset 0x00008000 --ramdisk_offset 0x01000000 -
 # prebuilt kernel
 TARGET_PREBUILT_KERNEL := device/zuk/ham/kernel
 # else uncomment below to build from sauce
-# TARGET_KERNEL_SOURCE := kernel/oneplus/onyx
-# TARGET_KERNEL_CONFIG := onyx_defconfig
+# TARGET_KERNEL_SOURCE := kernel/cyanogen/msm8974
+# TARGET_KERNEL_CONFIG := k9_defconfig
 
 # Filesystem
 BOARD_BOOTIMAGE_PARTITION_SIZE     := 20971520
